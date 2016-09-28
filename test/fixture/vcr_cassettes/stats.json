@@ -1,0 +1,34 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://blockchain.info/stats?format=json"
+    },
+    "response": {
+      "body": "{\"market_price_usd\":605.627,\"hash_rate\":1.9306265356268635E9,\"total_fees_btc\":6477138345,\"n_btc_mined\":201250000000,\"n_tx\":238376,\"n_blocks_mined\":161,\"minutes_between_blocks\":8.2013,\"totalbc\":1589930000000000,\"n_blocks_total\":431944,\"estimated_transaction_volume_usd\":1.614703584628818E8,\"blocks_size\":123153351,\"miners_revenue_usd\":1258051.636144673,\"nextretarget\":433439,\"difficulty\":241227200229,\"estimated_btc_sent\":26661684248371,\"miners_revenue_btc\":2077,\"total_btc_sent\":220953505400534,\"trade_volume_btc\":18639.829636399998,\"trade_volume_usd\":1.1288784103204021E7,\"timestamp\":1475075108000}",
+      "headers": {
+        "Date": "Wed, 28 Sep 2016 15:15:55 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "599",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d9c8aef8d8d0853964e7ca77fb693cccc1475075755; expires=Thu, 28-Sep-17 15:15:55 GMT; path=/; domain=.blockchain.info; HttpOnly",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Content-Security-Policy": "img-src 'self' data: https://blockchain.info https://*.blockchain.info https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://*.blockchain.info; frame-src 'none'; child-src 'none'; script-src 'self' https://www.google-analytics.com 'unsafe-inline' https://*.blockchain.info; connect-src 'self' wss://*.blockchain.info/ https://api.blockchain.info https://blockchain.info; object-src 'none'; media-src 'self' data: mediastream: blob:; font-src 'self';",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Cache-Control": "\"max-age=0, no-cache, no-store\"",
+        "Pragma": "\"no-cache\"",
+        "Via": "1.1 google",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2e98274d3b815011-DEN"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

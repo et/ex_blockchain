@@ -41,3 +41,10 @@ tx = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d
 # retrieve an address
 address = ExBlockchain.Blockchain.address("1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd")
 ```
+
+### [Stats API](https://blockchain.info/api/charts_api)
+
+```elixir
+# retrieve stats from Blockchain.info homepage
+stats = ExBlockchain.Stats.stats()
+```
