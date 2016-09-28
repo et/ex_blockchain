@@ -5,8 +5,6 @@ Elixir wrapper for the [Blockchain.info API](https://blockchain.info/api).
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
   1. Add `ex_blockchain` to your list of dependencies in `mix.exs`:
 
     ```elixir
