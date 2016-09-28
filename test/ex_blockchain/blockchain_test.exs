@@ -15,8 +15,16 @@ defmodule ExBlockchain.Blockchain.BlockchainTest do
 
   test "tx/1" do
     use_cassette "tx" do
-      block = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
-      assert block != nil
+      tx = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
+      assert tx != nil
+    end
+  end
+
+
+  test "address/1" do
+    use_cassette "address" do
+      address = ExBlockchain.Blockchain.address("1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd")
+      assert address != nil
     end
   end
 end

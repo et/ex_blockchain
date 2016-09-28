@@ -34,5 +34,10 @@ block = ExBlockchain.Blockchain.block("000000000000000016f9a2c3e0f4c1245ff24856a
 
 ```elixir
 # retrieve a transaction
-transaction = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
+tx = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
+```
+
+```elixir
+# retrieve an address
+address = ExBlockchain.Blockchain.address("1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd")
 ```

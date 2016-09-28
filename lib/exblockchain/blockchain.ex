@@ -34,6 +34,20 @@ defmodule ExBlockchain.Blockchain.Transaction do
   ]
 end
 
+defmodule ExBlockchain.Blockchain.Address do
+  defstruct [
+    :hash_160,
+    :address,
+    :n_tx,
+    :n_unredeemed,
+    :total_received,
+    :total_sent,
+    :final_balance,
+    :txs
+  ]
+end
+
+
 defmodule ExBlockchain.Blockchain do
   @moduledoc """
   Wrapper around the Blockchain Data API
@@ -46,5 +60,9 @@ defmodule ExBlockchain.Blockchain do
 
   def tx(id) do
     ExBlockchain.request("rawtx/#{id}", as: %ExBlockchain.Blockchain.Transaction{})
+  end
+
+  def address(id) do
+    ExBlockchain.request("rawaddr/#{id}", as: %ExBlockchain.Blockchain.Address{})
   end
 end
