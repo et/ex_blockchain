@@ -1,0 +1,30 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://blockchain.info/rawtx/d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94"
+    },
+    "response": {
+      "body": "\n\n{\n   \"ver\":1,\n   \"inputs\":[\n      {\n         \"sequence\":4294967295,\n         \"prev_out\":{\n            \"spent\":true,\n            \"tx_index\":64184276,\n            \"type\":0,\n            \"addr\":\"1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd\",\n            \"value\":144191,\n            \"n\":1,\n            \"script\":\"76a914b44370a1e57f7754507df560b8e06eeed2d0a76a88ac\"\n         },\n         \"script\":\"47304402202112123ca75feb0dca8871884c55db4c5607735e4921a14a64f65ae493d588bb0220612e21ac7088b70590ca3f68e23be4f52617fbe8e7090d46227750a3522355030121030bae317be23a1991bdabd8bc8ecd4538f7fb947a3da278e0518a6f8c89e1f48d\"\n      },\n      {\n         \"sequence\":4294967295,\n         \"prev_out\":{\n            \"spent\":true,\n            \"tx_index\":64239182,\n            \"type\":0,\n            \"addr\":\"1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd\",\n            \"value\":14466394,\n            \"n\":1,\n            \"script\":\"76a914b44370a1e57f7754507df560b8e06eeed2d0a76a88ac\"\n         },\n         \"script\":\"483045022100ba04bff969efe427880f3c86f4f8d099ac185f53db9f81801c9f90d43578d85802201416c35bea9356513edbcdfaf33f0a9526b6f0938320692cd0d88e7cd4d2383a0121030bae317be23a1991bdabd8bc8ecd4538f7fb947a3da278e0518a6f8c89e1f48d\"\n      }\n   ],\n   \"block_height\":320086,\n   \"relayed_by\":\"198.23.246.177\",\n   \"out\":[\n      {\n         \"spent\":true,\n         \"tx_index\":64247404,\n         \"type\":0,\n         \"addr\":\"1NfsU9oW8wGBJMtYFub6kveng8nyG5xDfr\",\n         \"value\":14562647,\n         \"n\":0,\n         \"script\":\"76a914edb493a18bd31a30b4135f3b5dedf799c83d041388ac\"\n      },\n      {\n         \"spent\":true,\n         \"tx_index\":64247404,\n         \"type\":0,\n         \"addr\":\"1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd\",\n         \"value\":37938,\n         \"n\":1,\n         \"script\":\"76a914b44370a1e57f7754507df560b8e06eeed2d0a76a88ac\"\n      }\n   ],\n   \"lock_time\":0,\n   \"size\":373,\n   \"double_spend\":false,\n   \"time\":1410408459,\n   \"tx_index\":64247404,\n   \"vin_sz\":2,\n   \"hash\":\"d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94\",\n   \"vout_sz\":2\n}\n",
+      "headers": {
+        "Date": "Wed, 28 Sep 2016 02:23:36 GMT",
+        "Content-Type": "application/json;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dbfb8d620d398d4be8f8e52e9d4f32f271475029416; expires=Thu, 28-Sep-17 02:23:36 GMT; path=/; domain=.blockchain.info; HttpOnly",
+        "Content-Language": "en",
+        "Content-Security-Policy": "img-src 'self' data: https://*.googleapis.com; style-src 'self' 'unsafe-inline'; frame-src 'none'; child-src 'none'; script-src 'self'; connect-src 'self' *.blockchain.info wss://*.blockchain.info https://blockchain.info; object-src 'none'; media-src 'none'; font-src 'none';",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Vary": "Accept-Encoding",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2e93bbfcca755029-DEN"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

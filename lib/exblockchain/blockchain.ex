@@ -18,6 +18,22 @@ defmodule ExBlockchain.Blockchain.Block do
   ]
 end
 
+defmodule ExBlockchain.Blockchain.Transaction do
+  defstruct [
+    :hash,
+    :ver,
+    :vin_sz,
+    :vout_sz,
+    :lock_time,
+    :size,
+    :relayed_by,
+    :block_height,
+    :tx_index,
+    :inputs,
+    :out
+  ]
+end
+
 defmodule ExBlockchain.Blockchain do
   @moduledoc """
   Wrapper around the Blockchain Data API
@@ -26,5 +42,9 @@ defmodule ExBlockchain.Blockchain do
 
   def block(id) do
     ExBlockchain.request("rawblock/#{id}", as: %ExBlockchain.Blockchain.Block{})
+  end
+
+  def tx(id) do
+    ExBlockchain.request("rawtx/#{id}", as: %ExBlockchain.Blockchain.Transaction{})
   end
 end

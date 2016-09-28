@@ -1,7 +1,5 @@
 # ExBlockchain
 
-WIP
-
 Elixir wrapper for the [Blockchain.info API](https://blockchain.info/api).
 
 
@@ -32,4 +30,9 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 ```elixir
 # retrieve a block
 block = ExBlockchain.Blockchain.block("000000000000000016f9a2c3e0f4c1245ff24856a79c34806969f5084f410680")
+```
+
+```elixir
+# retrieve a transaction
+transaction = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
 ```

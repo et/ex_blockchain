@@ -12,4 +12,11 @@ defmodule ExBlockchain.Blockchain.BlockchainTest do
       assert block != nil
     end
   end
+
+  test "tx/1" do
+    use_cassette "tx" do
+      block = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d2585e9ab8fc664a94")
+      assert block != nil
+    end
+  end
 end
