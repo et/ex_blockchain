@@ -1,5 +1,5 @@
 
-defmodule ExBlockchain.Blockchain.StatsTest do
+defmodule ExBlockchain.StatsTest do
   use ExUnit.Case, async: false
   use ExVCR.Mock, adapter: ExVCR.Adapter.Hackney
 

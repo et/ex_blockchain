@@ -1,0 +1,29 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://blockchain.info/tobtc?currency=USD&value=50"
+    },
+    "response": {
+      "body": "0.08286652",
+      "headers": {
+        "Date": "Wed, 28 Sep 2016 15:40:24 GMT",
+        "Content-Type": "text/plain;charset=UTF-8",
+        "Content-Length": "10",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=d2a349f8112e892a6e21c70e3891d77ff1475077224; expires=Thu, 28-Sep-17 15:40:24 GMT; path=/; domain=.blockchain.info; HttpOnly",
+        "Content-Language": "en",
+        "Content-Security-Policy": "img-src 'self' data: https://blockchain.info; style-src 'self' 'unsafe-inline'; frame-src 'none'; child-src 'none'; script-src 'self'; connect-src 'self' *.blockchain.info wss://*.blockchain.info https://blockchain.info; object-src 'none'; media-src 'none'; font-src 'none';",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2e984b2b68eb5023-DEN"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

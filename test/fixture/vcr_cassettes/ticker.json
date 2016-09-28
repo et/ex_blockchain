@@ -1,0 +1,35 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://blockchain.info/ticker"
+    },
+    "response": {
+      "body": "\n{\n  \"USD\" : {\"15m\" : 603.51, \"last\" : 603.51, \"buy\" : 603.5, \"sell\" : 603.51,  \"symbol\" : \"$\"},\n  \"ISK\" : {\"15m\" : 68928.45, \"last\" : 68928.45, \"buy\" : 68927.3, \"sell\" : 68928.45,  \"symbol\" : \"kr\"},\n  \"HKD\" : {\"15m\" : 4680.01, \"last\" : 4680.01, \"buy\" : 4679.93, \"sell\" : 4680.01,  \"symbol\" : \"$\"},\n  \"TWD\" : {\"15m\" : 18956.65, \"last\" : 18956.65, \"buy\" : 18956.33, \"sell\" : 18956.65,  \"symbol\" : \"NT$\"},\n  \"CHF\" : {\"15m\" : 586.35, \"last\" : 586.35, \"buy\" : 586.34, \"sell\" : 586.35,  \"symbol\" : \"CHF\"},\n  \"EUR\" : {\"15m\" : 538.69, \"last\" : 538.69, \"buy\" : 538.68, \"sell\" : 538.69,  \"symbol\" : \"€\"},\n  \"DKK\" : {\"15m\" : 4011.88, \"last\" : 4011.88, \"buy\" : 4011.81, \"sell\" : 4011.88,  \"symbol\" : \"kr\"},\n  \"CLP\" : {\"15m\" : 399684.52, \"last\" : 399684.52, \"buy\" : 399677.9, \"sell\" : 399684.52,  \"symbol\" : \"$\"},\n  \"CAD\" : {\"15m\" : 798.92, \"last\" : 798.92, \"buy\" : 798.9, \"sell\" : 798.92,  \"symbol\" : \"$\"},\n  \"CNY\" : {\"15m\" : 4024.29, \"last\" : 4024.29, \"buy\" : 4024.22, \"sell\" : 4024.29,  \"symbol\" : \"¥\"},\n  \"THB\" : {\"15m\" : 20888.46, \"last\" : 20888.46, \"buy\" : 20888.11, \"sell\" : 20888.46,  \"symbol\" : \"฿\"},\n  \"AUD\" : {\"15m\" : 788.19, \"last\" : 788.19, \"buy\" : 788.18, \"sell\" : 788.19,  \"symbol\" : \"$\"},\n  \"SGD\" : {\"15m\" : 821.36, \"last\" : 821.36, \"buy\" : 821.34, \"sell\" : 821.36,  \"symbol\" : \"$\"},\n  \"KRW\" : {\"15m\" : 664493.68, \"last\" : 664493.68, \"buy\" : 664482.67, \"sell\" : 664493.68,  \"symbol\" : \"₩\"},\n  \"JPY\" : {\"15m\" : 60622.58, \"last\" : 60622.58, \"buy\" : 60621.58, \"sell\" : 60622.58,  \"symbol\" : \"¥\"},\n  \"PLN\" : {\"15m\" : 2307.47, \"last\" : 2307.47, \"buy\" : 2307.43, \"sell\" : 2307.47,  \"symbol\" : \"zł\"},\n  \"GBP\" : {\"15m\" : 464.41, \"last\" : 464.41, \"buy\" : 464.4, \"sell\" : 464.41,  \"symbol\" : \"£\"},\n  \"SEK\" : {\"15m\" : 5192.35, \"last\" : 5192.35, \"buy\" : 5192.26, \"sell\" : 5192.35,  \"symbol\" : \"kr\"},\n  \"NZD\" : {\"15m\" : 827.83, \"last\" : 827.83, \"buy\" : 827.82, \"sell\" : 827.83,  \"symbol\" : \"$\"},\n  \"BRL\" : {\"15m\" : 1955.62, \"last\" : 1955.62, \"buy\" : 1955.58, \"sell\" : 1955.62,  \"symbol\" : \"R$\"},\n  \"RUB\" : {\"15m\" : 38619.43, \"last\" : 38619.43, \"buy\" : 38618.79, \"sell\" : 38619.43,  \"symbol\" : \"RUB\"}\n  \n}",
+      "headers": {
+        "Date": "Wed, 28 Sep 2016 15:40:24 GMT",
+        "Content-Type": "application/json;charset=UTF-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "keep-alive",
+        "Set-Cookie": "__cfduid=dff46c1e0d6241ddc0de05fd8f3bb5b4d1475077223; expires=Thu, 28-Sep-17 15:40:23 GMT; path=/; domain=.blockchain.info; HttpOnly",
+        "Content-Language": "en",
+        "Content-Security-Policy": "img-src 'self' data: https://blockchain.info; style-src 'self' 'unsafe-inline'; frame-src 'none'; child-src 'none'; script-src 'self'; connect-src 'self' *.blockchain.info wss://*.blockchain.info https://blockchain.info; object-src 'none'; media-src 'none'; font-src 'none';",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Origin": "*",
+        "Vary": "Accept-Encoding",
+        "CF-Cache-Status": "HIT",
+        "Expires": "Wed, 28 Sep 2016 15:40:54 GMT",
+        "Cache-Control": "public, max-age=30",
+        "Server": "cloudflare-nginx",
+        "CF-RAY": "2e984b29f84c5023-DEN"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

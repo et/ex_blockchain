@@ -42,9 +42,21 @@ tx = ExBlockchain.Blockchain.tx("d4af240386cdacab4ca666d178afc88280b620ae308ae8d
 address = ExBlockchain.Blockchain.address("1HS9RLmKvJ7D1ZYgfPExJZQZA1DMU3DEVd")
 ```
 
+### [Exchange Rates API](https://blockchain.info/api/exchange_rates_api)
+
+```elixir
+# retrieves ticker of currency codes
+ticker = ExBlockchain.ExchangeRates.ticker
+```
+
+```elixir
+# retrieves `value` of `currency` in BTC
+btc_value = ExBlockchain.ExchangeRates.to_btc("USD", 50)
+```
+
 ### [Stats API](https://blockchain.info/api/charts_api)
 
 ```elixir
 # retrieve stats from Blockchain.info homepage
-stats = ExBlockchain.Stats.stats()
+stats = ExBlockchain.Stats.stats
 ```
